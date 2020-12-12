@@ -235,7 +235,7 @@ confusionMatrix.train(fit)
       
 ```    
   
-   The model was tested on the validation set partitioned right after reading the files and since it only has 17 observations to try to resemble the testing set, they all predicted successfully, accuracy 17/17. See here the predicted class first, and then, the actual classe values from the validation set.   
+   The model was tested on the validation set partitioned right after reading the files and since it only has 17 observations to try to resemble the testing set, they all predicted successfully, accuracy 17/17. See here the plot of two variables from the validation set and an indicator of whether the prediction was correct or incorrect, showing that all predictions were accurately classified.   
    
 
 ```{r WLE6, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, comment="", cache=TRUE}
